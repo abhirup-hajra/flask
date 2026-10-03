@@ -10,7 +10,7 @@ RUN apk add python3
 
 RUN  pip3 install  -r requirements.txt 
 
-EXPOSE 80
+EXPOSE 5000
 
 ENTRYPOINT [ "python3" ]
 
